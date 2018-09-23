@@ -7,7 +7,9 @@ Download and install Vagrant https://www.vagrantup.com/downloads.html
 Vagrant is a tool for building and managing virtual machine environments in a single workflow. In our example Vagrant is useing Virtual Box as our provider.  
 
 Before getting started  
-Add a box to your system  
+Add a box to your system. Find one here https://app.vagrantup.com/boxes/search - Press new on the box you have choosen to see how to add and initialise it.  
+
+For now we will work with this box.  
 vagrant box add ubuntu/trusty64  
 
 Initialise the box  
