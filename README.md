@@ -22,5 +22,14 @@ vagrant init ubuntu/trusty64
 
 vagrant up  
 
+Connect to your virtual machine.  
+vagrant ssh  
+
+If you can't connect.  
+vagrant ssh-config  
+ssh user@hostName -p <portNumber> -i <IdentityFilePath>  
+
+Go to the Virtual Box application and check that you have a new virtual box.  
+
 Getting started tuturial  
 https://www.vagrantup.com/intro/getting-started/  
