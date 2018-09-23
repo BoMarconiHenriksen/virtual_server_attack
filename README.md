@@ -9,10 +9,15 @@ Vagrant is a tool for building and managing virtual machine environments in a si
 Before getting started  
 Add a box to your system. Find one here https://app.vagrantup.com/boxes/search - Press new on the box you have choosen to see how to add and initialise it.  
 
+Open virtual box on your system.  
+
+Open Git Bash or cmder.  
+Make a new directory and cd into it.  
+
 For now we will work with this box.  
 vagrant box add ubuntu/trusty64  
 
-Initialise the box  
+Initialise the box.  
 vagrant init ubuntu/trusty64  
 
 vagrant up  
