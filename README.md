@@ -27,7 +27,7 @@ vagrant ssh
 
 If you can't connect.  
 vagrant ssh-config  
-ssh user@hostName -p [<portNumber>] -i [<IdentityFilePath>]  
+ssh user@hostName -p [<port_Number>] -i [<IdentityFile_Path>]  
 
 Go to the Virtual Box application and check that you have a new virtual box.  
 
