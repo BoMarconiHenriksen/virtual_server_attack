@@ -12,7 +12,7 @@ Open virtual box on your system.
 Open Git Bash or cmder.  
 Make a new directory and cd into it.  
 
-For now we will work with this box.  
+For now we will work with the box ubuntu/trusty64 which is an ubuntu 16.04 server.  
 vagrant box add ubuntu/trusty64  
 
 ### Initialise the box.  
