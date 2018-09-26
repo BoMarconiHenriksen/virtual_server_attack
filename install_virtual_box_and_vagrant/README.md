@@ -5,7 +5,7 @@ VirtualBox is a cross-platform virtualization application. It extends the capabi
 Vagrant is a tool for building and managing virtual machine environments in a single workflow. In our example Vagrant is useing Virtual Box as our provider.  
 
 ### Before getting started  
-Add a box to your system. Find one here https://app.vagrantup.com/boxes/search - Press new on the box you have choosen to see how to add and initialise it.  
+Add a box to your system. We are going to use ubuntu/xenial64 but if you need another one you can find one here https://app.vagrantup.com/boxes/search - Press new on the box you have choosen to see how to add and initialise it.  
 
 Open virtual box on your system.  
 
