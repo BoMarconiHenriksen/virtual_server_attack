@@ -14,7 +14,7 @@ Open Git Bash or cmder.
 Make a new directory and cd into it.  
 
 ### Get this Vagrant box and add it to your system.  
-vagrant box add ubuntu/trusty64  
+vagrant box add ubuntu/xenial64  
 
 ##### If you another time want to install other os you find them here. Skip this step for now.
 You can find other boxes here https://app.vagrantup.com/boxes/search - Press new on the box you have choosen to see how to add and initialise it. 
