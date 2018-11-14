@@ -2,6 +2,10 @@ var express = require('express');
 var router = express.Router();
 const userFacade = require('../facades/userFacade')
 const loginFacade = require('../facades/loginFacade')
+// https://scotch.io/@401/mongodb-injection-in-nodejs
+// https://blog.websecurify.com/2014/08/hacking-nodejs-and-mongodb.html
+// https://medium.com/@nodepractices/were-under-attack-23-node-js-security-best-practices-e33c146cb87d
+// http://scottksmith.com/blog/2015/06/22/secure-node-apps-against-owasp-top-10-cross-site-scripting/
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
