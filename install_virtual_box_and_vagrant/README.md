@@ -1,3 +1,5 @@
+[Before Getting Started](#before-getting-started)  
+
 Tutorial  
 https://www.taniarascia.com/how-to-install-apache-php-7-1-and-mysql-on-ubuntu-with-vagrant/  
 
@@ -11,21 +13,21 @@ Vagrant is a tool for building and managing virtual machine environments in a si
 Open virtual box on your system.  
 
 Open Git Bash or cmder.  
-Make a new directory and cd into it.  
+1. Make a new directory and cd into it.  
 
 ### Get this Vagrant box and add it to your system.  
-vagrant box add ubuntu/xenial64  
+2. vagrant box add ubuntu/xenial64  
 
 ##### If you another time want to install other os you find them here. Skip this step for now.
 You can find other boxes here https://app.vagrantup.com/boxes/search - Press new on the box you have choosen to see how to add and initialise it. 
 
 ### Initialise the box.  
-vagrant init ubuntu/xenial64  
+3. vagrant init ubuntu/xenial64  
 
-vagrant up  
+4. vagrant up  
 
 ### Connect to your virtual machine.  
-vagrant ssh  
+5. vagrant ssh  
 
 ### If you get this error: 
 VT-x is disabled in the BIOS for both all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)  
