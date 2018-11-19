@@ -5,7 +5,7 @@ vagrant init ubuntu/xenial64
 
 #### Open the Vagrant file in vs code. 
 Delete all the default code and copy/paste this in.  
-'''
+```
 Vagrant.configure("2") do |config|  
   config.vm.define "web" do |web|  
     web.vm.box = "ubuntu/xenial64"  
@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
     end  
   end  
 end  
-'''
+```
 Check that both servers are running.
 vagrant status 
 
