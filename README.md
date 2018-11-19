@@ -1,7 +1,5 @@
 # virtual_server_attack
 
-[Before Getting Started](https://github.com/BoMarconiHenriksen/virtual_server_attack/tree/developer/lecture_notes/01_install_virtual_box_and_vagrant#before-getting-started)
-
 Gruppe: Anders Nissen, Christian Lykke og Bo Henriksen.  
 
 Vi vil gerne gerne lave en opgave, hvor klassen skal hacke en server.  
