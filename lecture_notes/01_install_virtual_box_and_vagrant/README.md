@@ -31,6 +31,13 @@ vagrant ssh
 VT-x is disabled in the BIOS for both all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)  
 https://www.laptopmag.com/articles/access-bios-windows-10  
 
+### negative string size error
+If you get this error: negative string size (or size too big) (ArgumentError)  
+
+In the folder user delete the folder .vagrant.d  
+
+If it still does not work then uninstall Vagrant and Virtual Box and install both again. Be sure that the .vagrant.d folder is deleted.  
+
 ### If you can't connect.  
 vagrant ssh-config  
 ssh user@hostName -p [<port_Number>] -i [<IdentityFile_Path>]  
