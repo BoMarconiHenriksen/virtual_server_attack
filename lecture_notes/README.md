@@ -7,6 +7,7 @@ TODO: Disposition
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Before Getting Started](https://github.com/BoMarconiHenriksen/virtual_server_attack/tree/developer/lecture_notes/01_install_virtual_box_and_vagrant#before-getting-started)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Setup a Virtual Box](https://github.com/BoMarconiHenriksen/virtual_server_attack/tree/developer/lecture_notes/01_install_virtual_box_and_vagrant#get-this-vagrant-box-and-add-it-to-your-system)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Do You get an Error? Look Here](https://github.com/BoMarconiHenriksen/virtual_server_attack/tree/developer/lecture_notes/01_install_virtual_box_and_vagrant#if-you-get-this-error)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Useful Commands](https://github.com/BoMarconiHenriksen/virtual_server_attack/tree/developer/lecture_notes/01_install_virtual_box_and_vagrant#useful-commands)  
 
 [Install Multiple Vms in One Vagrant File](https://github.com/BoMarconiHenriksen/virtual_server_attack/tree/developer/lecture_notes/02_install_multiple_vms_in_one_vagrant_file)  
 
