@@ -15,25 +15,25 @@ Open virtual box on your system.
 Open Git Bash or cmder.  
 1. Make a new directory and cd into it.  
 
-### Get this Vagrant box and add it to your system.  
+### Get this Vagrant box and add it to your system  
 2. vagrant box add ubuntu/xenial64  
 
-##### If you another time want to install other os you find them here. Skip this step for now.
+##### If you another time want to install other os you find them here. Skip this step for now
 You can find other boxes here https://app.vagrantup.com/boxes/search - Press new on the box you have choosen to see how to add and initialise it. 
 
-### Initialise the box.  
+### Initialise the box  
 3. vagrant init ubuntu/xenial64  
 
 4. vagrant up  
 
-### Connect to your virtual machine.  
+### Connect to your virtual machine  
 5. vagrant ssh  
 
-### If you get this error: 
+### If you get this error 
 VT-x is disabled in the BIOS for both all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)  
 https://www.laptopmag.com/articles/access-bios-windows-10  
 
-### If you can't connect.  
+### If you can't connect  
 vagrant ssh-config  
 ssh user@hostName -p [<port_Number>] -i [<IdentityFile_Path>]  
 
