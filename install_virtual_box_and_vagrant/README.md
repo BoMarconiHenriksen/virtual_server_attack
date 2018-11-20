@@ -46,7 +46,7 @@ https://www.vagrantup.com/intro/getting-started/
 ##### Reload vagrant after changes in vagrant file.  
 vagrant reload  
 
-#### Delete a virtual server
+##### Delete a virtual server
 vagrant destroy  
 
 ##### Remove a box 
