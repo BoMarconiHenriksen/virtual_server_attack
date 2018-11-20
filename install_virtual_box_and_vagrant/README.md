@@ -43,14 +43,15 @@ Getting started tuturial
 https://www.vagrantup.com/intro/getting-started/  
 
 ### Useful commands
-Delete a virtual server.
-vagrant destroy
+##### Reload vagrant after changes in vagrant file.  
+vagrant reload  
 
-Remove a box - If the box version from vagrant is not made with the same version of virtualbox you can get errors. Then remove the box and add it again if its updated.  
+#### Delete a virtual server
+vagrant destroy  
+
+##### Remove a box 
+If the box version from vagrant is not made with the same version of virtualbox you can get errors. Then remove the box and add it again if its updated.  
 vagrant box remove <box name>  
 
-Restart your virtual machine, skipping the initial import step.  
-vagrant reload --provision  
-
-Reload vagrant after changes in vagrant file.  
-vagrant reload  
+##### Restart your virtual machine, skipping the initial import step.  
+vagrant reload --provision   
