@@ -194,4 +194,5 @@ Open your browser and visit your local homepage vagrant-test.local.com
 
 ##### Python and scripting
 Make an automated Python script that create an Ubuntu droplet and installs nginx, nodejs and a node backend from a shell script.  
+https://github.com/koalalorenzo/python-digitalocean  
 
