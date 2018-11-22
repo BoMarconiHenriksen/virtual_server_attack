@@ -192,5 +192,6 @@ Open your browser and visit your local homepage vagrant-test.local.com
 1. It should be possible to see a basic homepage.  
 2. MySql should have 1 tabel with 3 users.  
 
-
+##### Python and scripting
+Make an automated Python script that create an Ubuntu droplet and installs nginx, nodejs and a node backend from a shell script.  
 
