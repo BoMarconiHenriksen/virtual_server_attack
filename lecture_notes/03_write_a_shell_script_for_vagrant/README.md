@@ -32,3 +32,5 @@ vagrant up
 
 ##### Run the inline scrips in a box that is running
 vagrant provision
+
+### Provision and shell scripts
