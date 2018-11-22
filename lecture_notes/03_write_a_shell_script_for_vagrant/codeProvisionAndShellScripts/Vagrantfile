@@ -1,0 +1,22 @@
+Vagrant.configure("2") do |config|
+  config.vm.define "webScripts", primary: true do |web|
+    web.vm.box = "ubuntu/xenial64"
+    web.vm.hostname = 'web'
+    
+    web.vm.network :private_network, ip: "192.168.56.105"
+    web.vm.network :forwarded_port, guest: 22, host: 12122, id: "ssh"
+
+    web.vm.provider :virtualbox do |v|
+      v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+      v.customize ["modifyvm", :id, "--memory", 512]
+      v.customize ["modifyvm", :id, "--name", "web2"]
+    end
+
+    # Use the shell script you find in .provision folder and run it.
+    config.vm.provision "shell", path: ".provision/updateUbuntu.sh"
+
+    # Install and configure nginx.
+    config.vm.provision "shell", path: ".provision/installNginx.sh"
+
+  end
+end
