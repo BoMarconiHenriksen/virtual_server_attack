@@ -33,7 +33,8 @@ vagrant up
 ##### Run the inline scrips in a box that is running
 vagrant provision
 
-### Provision and shell scripts
+
+# Provision and shell scripts
 For this demo we will update write 2 scripts. One will update the ubuntu OS and the other will install and configure NginX. So that we can visit a very simple webpage.  
 
 #### Map the local domain to the IP
