@@ -184,3 +184,11 @@ vagrant up
 vagrant ssh  
 
 Open your browser and visit your local homepage vagrant-test.local.com  
+
+### Excercises
+##### Make a vagrant file that install apache and MySql
+1. It should be possible to see a basic homepage.  
+2. MySql should have 1 tabel with 3 users.  
+
+
+
