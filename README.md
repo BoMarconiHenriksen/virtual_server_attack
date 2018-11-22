@@ -13,3 +13,6 @@ Vi programmer selv serven med sårbarheder, som klassen skal spinde op.
 I forhold til hacker opgaven har vi tænkt os at lave det som en "sporleg". Hver secret er et hint til næste sårbarhed. Det kunne også være en exception, der kan sende "hackeren" videre til næste sårbarhed.  
 
 Sårbarheder vi overvejer kunne være sql injection, broksen access control, broken authentication ect. 
+
+
+https://www.vagrantup.com/docs/  
