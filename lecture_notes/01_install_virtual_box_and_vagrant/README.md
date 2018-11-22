@@ -22,7 +22,7 @@ vagrant box add ubuntu/trusty64
 You can find other boxes here https://app.vagrantup.com/boxes/search - Press new on the box you have choosen to see how to add and initialise it. 
 
 ### Initialise the box  
-vagrant init ubuntu/xenial64  
+vagrant init ubuntu/trusty64  
 
 vagrant up  
 
