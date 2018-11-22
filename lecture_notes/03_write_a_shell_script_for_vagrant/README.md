@@ -188,11 +188,18 @@ vagrant ssh
 Open your browser and visit your local homepage vagrant-test.local.com  
 
 ### Excercises
-##### Make a vagrant file that install apache and MySql
+#### Hints for both excersices
+##### Run the vagrantfil without setting the vm box up again
+vagrant provision
+
+##### Set up the vm box again and run the provision
+vagrant reload --provision
+
+#### Make a vagrant file that install apache and MySql
 1. It should be possible to see a basic homepage.  
 2. MySql should have 1 tabel with 3 users.  
 
-##### Python and scripting
+#### Python and scripting
 Make an automated Python script that create an Ubuntu droplet and installs nginx, nodejs and a node backend from a shell script.  
 https://github.com/koalalorenzo/python-digitalocean  
 
