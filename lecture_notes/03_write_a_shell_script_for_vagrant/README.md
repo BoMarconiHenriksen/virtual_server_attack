@@ -183,4 +183,4 @@ server {
 vagrant up  
 vagrant ssh  
 
-Open your browser and visit your local homepage vagrant-test.local.com/  
+Open your browser and visit your local homepage vagrant-test.local.com  
