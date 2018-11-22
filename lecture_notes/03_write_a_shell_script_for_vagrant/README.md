@@ -39,6 +39,8 @@ vagrant provision
 # Provision and shell scripts
 For this demo we will update write 2 scripts. One will update the ubuntu OS and the other will install and configure NginX. So that we can visit a very simple webpage.  
 
+The shell provisioner is the most basic provisioner, and allows you to upload and execute a shell script as the root user in the VM.  
+
 #### Map the local domain to the IP
 We will start by adding the private IP and the server name to the host machine's hosts file. 
 
