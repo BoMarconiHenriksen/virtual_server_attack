@@ -2,7 +2,8 @@
 
 ### Inline Scripts
 ##### Copy/paste this code to your vagrantfile
-´´´  
+
+```
 Vagrant.configure("2") do |config|  
   config.vm.define "web2", primary: true do |web|  
     web.vm.box = "ubuntu/xenial64"  
@@ -25,7 +26,7 @@ Vagrant.configure("2") do |config|
     SHELL  
   end  
 end  
-´´´  
+```
 ##### Run the inline scripts with a new box
 vagrant up
 
