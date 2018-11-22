@@ -1,6 +1,8 @@
 # Shell scrips for Vagrant
 
 ### Inline Scripts
+This demo will show you how to use inline scrips when setting up a vagrantfile.  
+
 ##### Copy/paste this code to your vagrantfile
 
 ```
