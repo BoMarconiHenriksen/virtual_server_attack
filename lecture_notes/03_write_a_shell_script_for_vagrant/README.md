@@ -61,6 +61,10 @@ You have to edit in admin mode. Add this line to the file.
 Save the file.  
 Attention! For some reason the OS sometimes comment out the line so if the connection does not work check this file.  
 
+To prevent the hosts entries from being commented out by Bitdefender 2016 do the following:
+
+In the main Bitdefender interface click on the human icon (from the upper right corner) and choose General Settings > Advanced tab > "Scan hosts file" button.
+
 ##### Add an ubuntu box to your system
 Create a new folder and add an ubuntubox.  
 ```
