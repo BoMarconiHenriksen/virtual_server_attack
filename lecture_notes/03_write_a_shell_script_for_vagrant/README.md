@@ -199,9 +199,16 @@ vagrant provision
 ##### Set up the vm box again and run the provision
 vagrant reload --provision
 
-#### Make a vagrant file that install apache and MySql
-1. It should be possible to see a basic homepage.  
+#### Make a vagrant file that install apache and MySQL
+1. It should be possible to see a basic homepage.SLET DENNE!  
 2. MySql should have 1 tabel with 3 users.  
+
+##### Hints MySQL
+1. Install MySQL without prompts.  
+2. Add a password to root.  
+3. Install mysql-server.  
+4. Run the secure installation.  
+
 
 #### Python and scripting
 Make an automated Python script that create an Ubuntu droplet and installs nginx, nodejs and a node backend from a shell script.  
