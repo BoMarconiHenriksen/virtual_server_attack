@@ -214,4 +214,6 @@ vagrant reload --provision
 Make an automated Python script that create an Ubuntu droplet and installs nginx, nodejs and a node backend from a shell script.  
 https://github.com/koalalorenzo/python-digitalocean  
 
-https://devhints.io/bash
+https://devhints.io/bash  
+https://www.cyberciti.biz/tips/find-out-if-file-exists-with-conditional-expressions.html  
+
