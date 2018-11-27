@@ -61,4 +61,3 @@ vagrant reload --provision
 
 Reload vagrant after changes in vagrant file.  
 vagrant reload  
-
