@@ -1,6 +1,6 @@
-[Before Getting Started](#before-getting-started)  
-
 Tutorial  
+https://www.taniarascia.com/what-are-vagrant-and-virtualbox-and-how-do-i-use-them/
+
 https://www.taniarascia.com/how-to-install-apache-php-7-1-and-mysql-on-ubuntu-with-vagrant/  
 
 ### Download and install Virtual Box https://www.virtualbox.org/wiki/Downloads  
@@ -13,25 +13,32 @@ Vagrant is a tool for building and managing virtual machine environments in a si
 Open virtual box on your system.  
 
 Open Git Bash or cmder.  
-1. Make a new directory and cd into it.  
+Make a new directory and cd into it.  
 
 ### Get this Vagrant box and add it to your system  
-2. vagrant box add ubuntu/xenial64  
+vagrant box add ubuntu/trusty64  
 
 ##### If you another time want to install other os you find them here. Skip this step for now
 You can find other boxes here https://app.vagrantup.com/boxes/search - Press new on the box you have choosen to see how to add and initialise it. 
 
 ### Initialise the box  
-3. vagrant init ubuntu/xenial64  
+vagrant init ubuntu/trusty64  
 
-4. vagrant up  
+vagrant up  
 
 ### Connect to your virtual machine  
-5. vagrant ssh  
+vagrant ssh  
 
 ### If you get this error 
 VT-x is disabled in the BIOS for both all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)  
 https://www.laptopmag.com/articles/access-bios-windows-10  
+
+### negative string size error
+If you get this error: negative string size (or size too big) (ArgumentError)  
+
+In the folder user delete the folder .vagrant.d  
+
+If it still does not work then uninstall Vagrant and Virtual Box and install both again. Be sure that the .vagrant.d folder is deleted.  
 
 ### If you can't connect  
 vagrant ssh-config  
@@ -43,15 +50,14 @@ Getting started tuturial
 https://www.vagrantup.com/intro/getting-started/  
 
 ### Useful commands
-##### Reload vagrant after changes in vagrant file.  
-vagrant reload  
+Delete a virtual server.
+vagrant destroy
 
-##### Delete a virtual server
-vagrant destroy  
-
-##### Remove a box 
-If the box version from vagrant is not made with the same version of virtualbox you can get errors. Then remove the box and add it again if its updated.  
+Remove a box - If the box version from vagrant is not made with the same version of virtualbox you can get errors. Then remove the box and add it again if its updated.  
 vagrant box remove <box name>  
 
-##### Restart your virtual machine, skipping the initial import step.  
-vagrant reload --provision   
+Restart your virtual machine, skipping the initial import step.  
+vagrant reload --provision  
+
+Reload vagrant after changes in vagrant file.  
+vagrant reload  
