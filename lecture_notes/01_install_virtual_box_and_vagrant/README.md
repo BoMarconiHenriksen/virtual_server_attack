@@ -1,8 +1,3 @@
-Tutorial  
-https://www.taniarascia.com/what-are-vagrant-and-virtualbox-and-how-do-i-use-them/
-
-https://www.taniarascia.com/how-to-install-apache-php-7-1-and-mysql-on-ubuntu-with-vagrant/  
-
 ### Download and install Virtual Box https://www.virtualbox.org/wiki/Downloads  
 VirtualBox is a cross-platform virtualization application. It extends the capabilities of your existing computer so that it can run multiple operating systems (inside multiple virtual machines) at the same time. So, for example, you can run Windows and Linux on your Mac, run Windows Server 2008 on your Linux server, run Linux on your Windows PC, and so on, all alongside your existing applications. You can install and run as many virtual machines as you like -- the only practical limits are disk space and memory.  
 
